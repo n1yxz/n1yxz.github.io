@@ -8,9 +8,13 @@
   color: $textColorDark;
 }
 
-.contact-div-main > * {
-  flex: 1;
+.contact-div-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 
 .contact-title {
   font-size: 65px;
@@ -51,6 +55,23 @@
   margin-left: 1.5rem;
   margin-top: -4rem;
 }
+
+.contact-profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px; // Slightly rounded square
+  object-fit: cover;
+  border: 3px solid #6C63FF;
+  padding: 8px;
+  background-color: #1a1a2e; // Optional background
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {

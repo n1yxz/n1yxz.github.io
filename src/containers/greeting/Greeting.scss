@@ -36,8 +36,20 @@
 
 .button-greeting-div {
   display: flex;
-  margin-top: 40px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 20px;
 }
+
+.button-greeting-div .main-button {
+  width: auto;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
 .download-link-button {
   text-decoration: none;
 }

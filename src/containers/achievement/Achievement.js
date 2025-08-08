@@ -50,6 +50,16 @@ export default function Achievement() {
               );
             })}
           </div>
+          <div className="achievement-footer">
+            <a
+             className="main-button"
+             href="https://www.linkedin.com/in/mohamed-niyazii/details/certifications/"
+             target="_blank"
+             rel="noopener noreferrer"
+             >
+              More Certificates
+              </a>
+            </div>
         </div>
       </div>
     </Fade>

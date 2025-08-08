@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .splash-animation-container {
@@ -15,9 +17,10 @@
   text-decoration: none;
 }
 .splash-title {
-  font-family: "Agustina Regular", cursive;
+  font-family: "Anta", sans-serif;
   font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 20px;
+  font-size: 3rem; /* Make it slightly bigger */
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }

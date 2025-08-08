@@ -6,6 +6,7 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import niyazProfile from "../../assets/images/niyaz.jpg";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -53,14 +54,21 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
+            {contactInfo.profile_image ? (
               <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
+              alt="Profile"
+              className="contact-profile-image"
+              src={contactInfo.profile_image}
+              />
+            ) : illustration.animated ? (
+            <DisplayLottie animationData={email} />
+          ) : (
+          <img
+          alt="Mail illustration"
+          src={require("../../assets/images/niyaz.jpg")}
+          />
+          )}
+
           </div>
         </div>
       </div>

@@ -23,6 +23,7 @@
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #152fd8;
   background-size: 150%;
   background: $experienceCardBannerLG;
   border-radius: 10px 10px 0px 0px;
@@ -153,4 +154,15 @@
   .experience-text-desc {
     font-size: 16px;
   }
+}
+
+.experience-roundedimg {
+  width: 120px;             /* make sure it’s a square */
+  height: 120px;
+  object-fit: contain;      /* show whole logo without cropping */
+  border-radius: 50%;       /* make it circular */
+  background-color: white;  /* fill the extra space */
+  padding: 8px;             /* space inside */
+  display: block;
+  margin: 0 auto;           /* center it */
 }

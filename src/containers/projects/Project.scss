@@ -9,6 +9,34 @@
   height: auto;
 }
 
+.more-projects-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #d4d6f9;
+}
+
+.more-projects-button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #5e1ecf;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: #7d3ce2;
+  }
+}
+
+
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
