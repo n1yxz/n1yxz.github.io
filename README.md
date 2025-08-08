@@ -120,12 +120,6 @@ Copy
 ```
 
 
-🖼 Screenshots
-Add preview images to public/ or src/assets/ and reference them:
-
-![Home](./public/screens/home.png)
-![Projects](./public/screens/projects.png)
-
 📦 Deploy
 Vercel
 - Import repo in Vercel
