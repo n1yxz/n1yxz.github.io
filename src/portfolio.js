@@ -2,7 +2,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
-import niyazProfile from "./assets/images/niyaz.jpg";
 
 const splashScreen = {
   enabled: true,
@@ -17,8 +16,8 @@ const illustration = {
 const greeting = {
   username: "Mohamed Niyaz",
   title: "Hi all, I'm Mohamed Niyaz",
-  subTitle: emoji("AI Student | Aspiring Full Stack Developer | Data Enthusiast 🚀"),
-  resumeLink: "./assets/docs/Software.pdf", // Add link if needed
+  subTitle: emoji("AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems 🚀"),
+  resumeLink: "./assets/docs/niyaz_resume.pdf", // Add link if needed
   displayGreeting: true
 };
 
@@ -31,14 +30,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AI ENTHUSIAST WITH GROWING FULL STACK SKILLS",
+  subTitle: "AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems",
   skills: [
     emoji("⚡ Exploring web development using React, Node.js, and Flask"),
     emoji("⚡ Developing AI/ML pipelines with Python, scikit-learn, PyTorch"),
     emoji("⚡ Working with REST APIs, Firebase, and cloud deployments"),
-    emoji("⚡ Creating dashboards with Power BI and automating insights")
+    emoji("⚡ Creating dashboards with Power BI and automating insights"),
+    emoji("⚡ Performing SOC triage, log analysis, and threat investigation"),
+    emoji("⚡ Working with Windows Server, Active Directory, and network security fundamentals"),
+    emoji("⚡ Implementing encryption techniques and security best practices")
   ],
   softwareSkills: [
+    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "Windows Server", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "Cybersecurity", fontAwesomeClassname: "fas fa-shield-alt" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "React", fontAwesomeClassname: "fab fa-react" },
@@ -54,6 +59,14 @@ const skillsSection = {
 const educationInfo = {
   display: true,
   schools: [
+    {
+      schoolName: "Georgian College",
+      logo: require("./assets/images/georgian.jpeg"),
+      subHeader: "Postgraduate Certificate in Cybersecurity",
+      duration: "Jan 2026 – Present",
+      desc: "Focused on network security, SOC operations, threat intelligence, secure system architecture, and incident response."
+    },
+
     {
       schoolName: "Georgian College",
       logo: require("./assets/images/georgian.jpeg"),
@@ -74,12 +87,14 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Frontend/Design", progressPercentage: "55%" },
-    { Stack: "Backend", progressPercentage: "85%" },
-    { Stack: "AI/ML", progressPercentage: "70%" }
+    { Stack: "Artificial Intelligence / Machine Learning", progressPercentage: "80%" },
+    { Stack: "Cybersecurity", progressPercentage: "50%" },
+    { Stack: "Backend Engineering", progressPercentage: "85%" },
+    { Stack: "Frontend Development", progressPercentage: "60%" }
   ],
   displayCodersrank: false
 };
+
 
 const workExperiences = {
   display: true,
@@ -113,11 +128,11 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/alexa.png"),
-      projectName: "Trivia Buddy – Alexa Voice Skill",
-      projectDesc: "Voice-based trivia game built using Alexa Skills Kit and S3 persistence.",
+      image: require("./assets/images/Restore_AI.png"),
+      projectName: "RestoreAI – Recommendation AI System",
+      projectDesc: "Delivered a client-focused AI solution to optimize restoration, cut costs, and enable automation.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz/ConvoAI" }
+        { name: "GitHub", url: "https://github.com/n1yxz/RestoreAI" },
       ]
     }
   ],
@@ -208,8 +223,7 @@ const contactInfo = {
   subtitle: "Let's collaborate or connect.",
   number: "+1-705-305-1309",
   email_address: "niyazmohamed14@gmail.com",
-  profile_image: niyazProfile,
-  display: true,
+  display: false,
 };
 
 const twitterDetails = {
