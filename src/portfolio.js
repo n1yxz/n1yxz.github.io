@@ -180,7 +180,7 @@ const bigProjects = {
 };
 
 const openSource = {
-  showGithubProfile: "true",
+  showGithubProfile: "false",
   display: true
 };
 
