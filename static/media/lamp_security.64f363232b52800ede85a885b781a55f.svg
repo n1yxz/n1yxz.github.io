@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171c28"/>
+      <stop offset="100%" stop-color="#1f2438"/>
+    </linearGradient>
+    <linearGradient id="shield1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7d3ce2"/>
+      <stop offset="100%" stop-color="#5e1ecf"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="225" fill="url(#bg1)"/>
+
+  <!-- Server rack -->
+  <g transform="translate(60,72)">
+    <rect x="0" y="0" width="70" height="90" rx="4" fill="#232941" stroke="#3a4160" stroke-width="1.5"/>
+    <rect x="8" y="10" width="54" height="14" rx="2" fill="#2c3352"/>
+    <circle cx="16" cy="17" r="2.5" fill="#4ade80"/>
+    <rect x="8" y="32" width="54" height="14" rx="2" fill="#2c3352"/>
+    <circle cx="16" cy="39" r="2.5" fill="#4ade80"/>
+    <rect x="8" y="54" width="54" height="14" rx="2" fill="#2c3352"/>
+    <circle cx="16" cy="61" r="2.5" fill="#facc15"/>
+    <rect x="8" y="76" width="54" height="10" rx="2" fill="#2c3352"/>
+  </g>
+
+  <!-- Shield with checkmark -->
+  <g transform="translate(230,52)">
+    <path d="M50 0 L98 16 L98 55 C98 90 74 112 50 122 C26 112 2 90 2 55 L2 16 Z" fill="url(#shield1)"/>
+    <path d="M30 60 L44 76 L74 40" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- connecting line -->
+  <line x1="130" y1="117" x2="230" y2="113" stroke="#4a5178" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- caption -->
+  <rect x="0" y="180" width="400" height="45" fill="#11141f"/>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#d4d6f9" text-anchor="middle">CIS-Hardened LAMP Server + Wazuh SIEM</text>
+</svg>
