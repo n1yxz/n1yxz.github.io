@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73cb725e.css",
-    "main.js": "/static/js/main.4fe68767.js",
+    "main.js": "/static/js/main.74d006a1.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.95ecb560.chunk.js": "/static/js/769.95ecb560.chunk.js",
     "static/media/Restore_AI.png": "/static/media/Restore_AI.1150868bc8db50a3f10e.png",
@@ -9,21 +9,21 @@
     "static/media/niyaz_resume.pdf": "/static/media/niyaz_resume.b107855488006d2bc431.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/pentest_chain.png": "/static/media/pentest_chain.5578220095f8c2219667.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/log_pipeline.png": "/static/media/log_pipeline.830b58c6c9fdff7cc1dd.png",
+    "static/media/lamp_security.png": "/static/media/lamp_security.e9d9d8b0dd831844f3b3.png",
     "static/media/amity.jpeg": "/static/media/amity.9f9378bafca1e621933f.jpeg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
-    "static/media/log_pipeline.svg": "/static/media/log_pipeline.226549dacb07264c2cd99d9e17a8bad7.svg",
-    "static/media/pentest_chain.svg": "/static/media/pentest_chain.f23f4e3314ffc55fa02c31857ead3960.svg",
-    "static/media/lamp_security.svg": "/static/media/lamp_security.64f363232b52800ede85a885b781a55f.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73cb725e.css.map": "/static/css/main.73cb725e.css.map",
-    "main.4fe68767.js.map": "/static/js/main.4fe68767.js.map",
+    "main.74d006a1.js.map": "/static/js/main.74d006a1.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.95ecb560.chunk.js.map": "/static/js/769.95ecb560.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73cb725e.css",
-    "static/js/main.4fe68767.js"
+    "static/js/main.74d006a1.js"
   ]
 }
