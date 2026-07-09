@@ -88,7 +88,7 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     { Stack: "Artificial Intelligence / Machine Learning", progressPercentage: "80%" },
-    { Stack: "Cybersecurity", progressPercentage: "50%" },
+    { Stack: "Cybersecurity", progressPercentage: "75%" },
     { Stack: "Backend Engineering", progressPercentage: "85%" },
     { Stack: "Frontend Development", progressPercentage: "60%" }
   ],
@@ -120,6 +120,27 @@ const bigProjects = {
   subtitle: "Personal and Academic Work",
   projects: [
     {
+      projectName: "LAMP Server Secure Design",
+      projectDesc: "Hardened a 450-user Ubuntu 24.04 LAMP environment against the CIS Benchmark, deployed Wazuh SIEM for monitoring, and produced a 279-control compliance assessment.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/n1yxz" }
+      ]
+    },
+    {
+      projectName: "Enterprise Log Pipeline & SIEM Monitoring",
+      projectDesc: "Built a Logstash to Elasticsearch to Kibana pipeline ingesting MySQL/syslog data, plus a LibreNMS/SNMPv3 monitoring setup across a multi-host lab network.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/n1yxz" }
+      ]
+    },
+    {
+      projectName: "Penetration Testing: Metasploitable3 Exploitation Chain",
+      projectDesc: "Ran a full exploitation chain (psexec, smart_hashdump, Hashcat cracking) against Metasploitable3 and documented findings after EternalBlue failed, using Metasploit, Nmap, and privilege escalation techniques.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/n1yxz" }
+      ]
+    },
+    {
       image: require("./assets/images/disaster.jpeg"),
       projectName: "Disaster Tweet Analysis with BERT",
       projectDesc: "Classified tweets related to disasters using BERT and NLP pipelines.",
@@ -141,7 +162,7 @@ const bigProjects = {
 
 const openSource = {
   showGithubProfile: "true",
-  display: false
+  display: true
 };
 
 const achievementSection = {
@@ -177,13 +198,29 @@ const achievementSection = {
       footerLink: [
         { name: "View Credential", url: "https://www.hackerrank.com/certificates/iframe/7b7be944979a" }
       ]
+    },
+    {
+      title: "Palo Alto Networks Cybersecurity Academy",
+      subtitle:
+        "Completed NDG labs covering Next-Gen Firewall architecture, App-ID, Content-ID, User-ID, URL filtering, and decryption.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Palo Alto Networks Logo",
+      footerLink: []
+    },
+    {
+      title: "Dean's List & Georgian Scholar",
+      subtitle:
+        "Recognized for academic standing across both the Post-Graduate AI Certificate (~92.5% GPA) and Post-Graduate Cybersecurity program (87.04 cumulative GPA) at Georgian College.",
+      image: require("./assets/images/georgian.jpeg"),
+      imageAlt: "Georgian College Logo",
+      footerLink: []
     }
   ],
   display: true,
   footerLink: [
     {
       name: "More Certificates",
-      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-ID/details/certifications/"
+      url: "https://www.linkedin.com/in/mohamed-niyazii/details/certifications/"
     }
   ]
 };
@@ -223,7 +260,7 @@ const contactInfo = {
   subtitle: "Let's collaborate or connect.",
   number: "+1-705-305-1309",
   email_address: "niyazmohamed14@gmail.com",
-  display: false,
+  display: true,
 };
 
 const twitterDetails = {
