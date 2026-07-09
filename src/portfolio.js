@@ -139,21 +139,21 @@ const bigProjects = {
   subtitle: "Personal and Academic Work",
   projects: [
     {
-      image: require("./assets/images/lamp_security.svg"),
+      image: require("./assets/images/lamp_security.png"),
       projectName: "LAMP Server Secure Design",
       projectDesc:
         "Hardened a 450-user Ubuntu 24.04 LAMP environment against the CIS Benchmark, deployed Wazuh SIEM for monitoring, and produced a 279-control compliance assessment.",
       footerLink: [{name: "GitHub", url: "https://github.com/n1yxz"}]
     },
     {
-      image: require("./assets/images/log_pipeline.svg"),
+      image: require("./assets/images/log_pipeline.png"),
       projectName: "Enterprise Log Pipeline & SIEM Monitoring",
       projectDesc:
         "Built a Logstash to Elasticsearch to Kibana pipeline ingesting MySQL/syslog data, plus a LibreNMS/SNMPv3 monitoring setup across a multi-host lab network.",
       footerLink: [{name: "GitHub", url: "https://github.com/n1yxz"}]
     },
     {
-      image: require("./assets/images/pentest_chain.svg"),
+      image: require("./assets/images/pentest_chain.png"),
       projectName: "Penetration Testing: Metasploitable3 Exploitation Chain",
       projectDesc:
         "Ran a full exploitation chain (psexec, smart_hashdump, Hashcat cracking) against Metasploitable3 and documented findings after EternalBlue failed, using Metasploit, Nmap, and privilege escalation techniques.",
@@ -228,7 +228,7 @@ const achievementSection = {
       title: "Palo Alto Networks Cybersecurity Academy",
       subtitle:
         "Completed NDG labs covering Next-Gen Firewall architecture, App-ID, Content-ID, User-ID, URL filtering, and decryption.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/palo_alto_icon.png"),
       imageAlt: "Palo Alto Networks Logo",
       footerLink: []
     },
