@@ -27,6 +27,7 @@ if (USE_GITHUB_DATA === "true") {
 {
   user(login:"${GITHUB_USERNAME}") { 
     name
+    login
     bio
     avatarUrl
     location
