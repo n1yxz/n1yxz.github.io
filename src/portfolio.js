@@ -16,7 +16,9 @@ const illustration = {
 const greeting = {
   username: "Mohamed Niyaz",
   title: "Hi all, I'm Mohamed Niyaz",
-  subTitle: emoji("AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems 🚀"),
+  subTitle: emoji(
+    "AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems 🚀"
+  ),
   resumeLink: "./assets/docs/niyaz_resume.pdf", // Add link if needed
   displayGreeting: true
 };
@@ -30,28 +32,31 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems",
+  subTitle:
+    "AI Graduate & Cybersecurity Professional in Training | Building Secure Intelligent Systems",
   skills: [
     emoji("⚡ Exploring web development using React, Node.js, and Flask"),
     emoji("⚡ Developing AI/ML pipelines with Python, scikit-learn, PyTorch"),
     emoji("⚡ Working with REST APIs, Firebase, and cloud deployments"),
     emoji("⚡ Creating dashboards with Power BI and automating insights"),
     emoji("⚡ Performing SOC triage, log analysis, and threat investigation"),
-    emoji("⚡ Working with Windows Server, Active Directory, and network security fundamentals"),
+    emoji(
+      "⚡ Working with Windows Server, Active Directory, and network security fundamentals"
+    ),
     emoji("⚡ Implementing encryption techniques and security best practices")
   ],
   softwareSkills: [
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "Windows Server", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "Cybersecurity", fontAwesomeClassname: "fas fa-shield-alt" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" }
+    {skillName: "Linux", fontAwesomeClassname: "fab fa-linux"},
+    {skillName: "Windows Server", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "Cybersecurity", fontAwesomeClassname: "fas fa-shield-alt"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar"}
   ],
   display: true
 };
@@ -87,29 +92,43 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Artificial Intelligence / Machine Learning", progressPercentage: "80%" },
-    { Stack: "Cybersecurity", progressPercentage: "75%" },
-    { Stack: "Backend Engineering", progressPercentage: "85%" },
-    { Stack: "Frontend Development", progressPercentage: "60%" }
+    {
+      Stack: "Artificial Intelligence / Machine Learning",
+      progressPercentage: "80%"
+    },
+    {Stack: "Cybersecurity", progressPercentage: "75%"},
+    {Stack: "Backend Engineering", progressPercentage: "85%"},
+    {Stack: "Frontend Development", progressPercentage: "60%"}
   ],
   displayCodersrank: false
 };
-
 
 const workExperiences = {
   display: true,
   experience: [
     {
       role: "Junior Software Engineer",
-      company: "Tahir Hassan Electromechanical Services L.L.C, Dubai, United Arab Emirates",
+      company:
+        "Tahir Hassan Electromechanical Services L.L.C, Dubai, United Arab Emirates",
       companylogo: require("./assets/images/the.png"),
       date: "Jul 2022 – Nov 2023",
       desc: (
-      <ul style={{ textAlign: "left" }}>
-      <li>Built automation tools, integrated APIs, and supported AI chatbot solutions using Flask and Dialogflow.</li>
-      <li>Developed IoT-enabled HVAC monitoring and optimization tools for electromechanical systems, integrating real-time sensor data with predictive maintenance algorithms.</li>
-      <li>Created dashboards and mobile tools for technicians to monitor chiller performance, reduce downtime, and improve energy efficiency by up to 20%.</li>
-      </ul>
+        <ul style={{textAlign: "left"}}>
+          <li>
+            Built automation tools, integrated APIs, and supported AI chatbot
+            solutions using Flask and Dialogflow.
+          </li>
+          <li>
+            Developed IoT-enabled HVAC monitoring and optimization tools for
+            electromechanical systems, integrating real-time sensor data with
+            predictive maintenance algorithms.
+          </li>
+          <li>
+            Created dashboards and mobile tools for technicians to monitor
+            chiller performance, reduce downtime, and improve energy efficiency
+            by up to 20%.
+          </li>
+        </ul>
       )
     }
   ]
@@ -121,40 +140,40 @@ const bigProjects = {
   projects: [
     {
       projectName: "LAMP Server Secure Design",
-      projectDesc: "Hardened a 450-user Ubuntu 24.04 LAMP environment against the CIS Benchmark, deployed Wazuh SIEM for monitoring, and produced a 279-control compliance assessment.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz" }
-      ]
+      projectDesc:
+        "Hardened a 450-user Ubuntu 24.04 LAMP environment against the CIS Benchmark, deployed Wazuh SIEM for monitoring, and produced a 279-control compliance assessment.",
+      footerLink: [{name: "GitHub", url: "https://github.com/n1yxz"}]
     },
     {
       projectName: "Enterprise Log Pipeline & SIEM Monitoring",
-      projectDesc: "Built a Logstash to Elasticsearch to Kibana pipeline ingesting MySQL/syslog data, plus a LibreNMS/SNMPv3 monitoring setup across a multi-host lab network.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz" }
-      ]
+      projectDesc:
+        "Built a Logstash to Elasticsearch to Kibana pipeline ingesting MySQL/syslog data, plus a LibreNMS/SNMPv3 monitoring setup across a multi-host lab network.",
+      footerLink: [{name: "GitHub", url: "https://github.com/n1yxz"}]
     },
     {
       projectName: "Penetration Testing: Metasploitable3 Exploitation Chain",
-      projectDesc: "Ran a full exploitation chain (psexec, smart_hashdump, Hashcat cracking) against Metasploitable3 and documented findings after EternalBlue failed, using Metasploit, Nmap, and privilege escalation techniques.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz" }
-      ]
+      projectDesc:
+        "Ran a full exploitation chain (psexec, smart_hashdump, Hashcat cracking) against Metasploitable3 and documented findings after EternalBlue failed, using Metasploit, Nmap, and privilege escalation techniques.",
+      footerLink: [{name: "GitHub", url: "https://github.com/n1yxz"}]
     },
     {
       image: require("./assets/images/disaster.jpeg"),
       projectName: "Disaster Tweet Analysis with BERT",
-      projectDesc: "Classified tweets related to disasters using BERT and NLP pipelines.",
+      projectDesc:
+        "Classified tweets related to disasters using BERT and NLP pipelines.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz/Disaster_Tweet_Analysis_EDA-Cleaning-BERT" }
+        {
+          name: "GitHub",
+          url: "https://github.com/n1yxz/Disaster_Tweet_Analysis_EDA-Cleaning-BERT"
+        }
       ]
     },
     {
       image: require("./assets/images/Restore_AI.png"),
       projectName: "RestoreAI – Recommendation AI System",
-      projectDesc: "Delivered a client-focused AI solution to optimize restoration, cut costs, and enable automation.",
-      footerLink: [
-        { name: "GitHub", url: "https://github.com/n1yxz/RestoreAI" },
-      ]
+      projectDesc:
+        "Delivered a client-focused AI solution to optimize restoration, cut costs, and enable automation.",
+      footerLink: [{name: "GitHub", url: "https://github.com/n1yxz/RestoreAI"}]
     }
   ],
   display: true
@@ -176,7 +195,7 @@ const achievementSection = {
       image: require("./assets/images/aws.jpeg"),
       imageAlt: "AWS Logo",
       footerLink: [
-        { name: "View Credential", url: "https://www.credly.com/go/qBbocjAe" }
+        {name: "View Credential", url: "https://www.credly.com/go/qBbocjAe"}
       ]
     },
     {
@@ -186,7 +205,7 @@ const achievementSection = {
       image: require("./assets/images/aws.jpeg"),
       imageAlt: "AWS Logo",
       footerLink: [
-        { name: "View Credential", url: "https://www.credly.com/go/vgT0gn3e" }
+        {name: "View Credential", url: "https://www.credly.com/go/vgT0gn3e"}
       ]
     },
     {
@@ -196,7 +215,10 @@ const achievementSection = {
       image: require("./assets/images/hackerrank.png"),
       imageAlt: "HackerRank Logo",
       footerLink: [
-        { name: "View Credential", url: "https://www.hackerrank.com/certificates/iframe/7b7be944979a" }
+        {
+          name: "View Credential",
+          url: "https://www.hackerrank.com/certificates/iframe/7b7be944979a"
+        }
       ]
     },
     {
@@ -224,7 +246,6 @@ const achievementSection = {
     }
   ]
 };
-
 
 const blogSection = {
   title: "Blogs",
@@ -260,11 +281,11 @@ const contactInfo = {
   subtitle: "Let's collaborate or connect.",
   number: "+1-705-305-1309",
   email_address: "niyazmohamed14@gmail.com",
-  display: true,
+  display: true
 };
 
 const twitterDetails = {
-  userName: "", 
+  userName: "",
   display: false
 };
 
