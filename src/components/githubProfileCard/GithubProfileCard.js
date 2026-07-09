@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
@@ -13,7 +13,7 @@ export default function GithubProfileCard({prof}) {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="contact">
+      <div className="main" id="opensource">
         <h1 className="prof-title">Reach Out to me!</h1>
         <div className="row">
           <div className="main-content-profile">
